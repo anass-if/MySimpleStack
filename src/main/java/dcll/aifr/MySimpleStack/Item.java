@@ -5,9 +5,9 @@ package dcll.aifr.MySimpleStack;
  */
 public class Item {
 
-    private Object value ;
+    private Object value;
 
-     Item(Object value) {
+     Item(final Object value) {
         setValue(value);
     }
 
